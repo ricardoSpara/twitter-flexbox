@@ -189,3 +189,57 @@ div.bar .content .actions button {
   border-radius: 16px;
   margin-right: 20px;
 }
+
+div.wrapper-content {
+  display: flex;
+}
+
+div.wrapper-content aside.profile {
+  width: 260px;
+}
+
+div.wrapper-content aside.profile img.avatar {
+  margin-top: -120px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+
+div.wrapper-content aside.profile h1 {
+  margin-top: 10px;
+  font-size: 21px;
+  color: #1f2226;
+}
+
+div.wrapper-content aside.profile span {
+  font-size: 15px;
+  color: #1f2226;
+}
+
+div.wrapper-content aside.profile p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #1f2226;
+}
+
+div.wrapper-content aside.profile ul {
+  margin-top: 20px;
+  list-style: none;
+}
+
+div.wrapper-content aside.profile ul li {
+  font-size: 14px;
+  color: #657786;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+div.wrapper-content aside.profile ul li:first-child {
+  margin: 0;
+}
+
+div.wrapper-content aside.profile li img {
+  margin-right: 10px;
+}
